@@ -1,0 +1,42 @@
+/* style.css */
+
+body {
+  transition: background-color 0.5s ease;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.day-mode {
+  background-color: #fff;
+  color: #333;
+}
+
+.night-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.toggle-btn {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Additional styles for the night mode button appearance */
+.night-mode .toggle-btn {
+  background-color: #555;
+}
